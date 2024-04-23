@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'LuckiestGuy';
+    src: url(../LuckiestGuy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../Inter-Bold.ttf);
+}
+
+.wrap {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/bg.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    font-family: 'LuckiestGuy';
+    color: #ff00c6;
+    font-size: 8.3333vw; /* 120px 转换为百分比 */
+    text-align: center;
+    padding-top: 5.5556vh; /* 80px 转换为百分比 */
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 93.6667vh; /* 846px 转换为百分比 */
+}
+
+.footer p {
+    font-family: 'Inter';
+    color: #ff00c6;
+    font-size: 1.3889vw; /* 25px 转换为百分比 */
+}
+
+.flowers {
+    position: relative;
+}
+
+.flowers img {
+    width: 100%;
+}
+
+.flowers div {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.flowers div a {
+    text-decoration: none;
+    color: #ff00c6;
+    font-family: 'Inter';
+    text-align: center;
+    flex: 1
+    ;
+}
+
+.flowers .f1 {
+    width: 9.4444vw; /* 136px 转换为百分比 */
+    top: 35.1111vh; /* 316px 转换为百分比 */
+    left: 7.9167vw; /* 114px 转换为百分比 */
+}
+
+.flowers .f2 {
+    width: 8.5417vw; /* 123px 转换为百分比 */
+    top: 26.1111vh; /* 235px 转换为百分比 */
+    left: 36.8056vw; /* 529px 转换为百分比 */
+}
+
+.flowers .f3 {
+    width: 8.3333vw; /* 120px 转换为百分比 */
+    top: 29.5556vh; /* 266px 转换为百分比 */
+    left: 79.1667vw; /* 1128px 转换为百分比 */
+}
+
+.flowers .f4 {
+    width: 9.6528vw; /* 139px 转换为百分比 */
+    top: 49.7778vh; /* 448px 转换为百分比 */
+    left: 28.8889vw; /* 416px 转换为百分比 */
+}
+
+.flowers .f5 {
+    width: 10.2083vw; /* 147px 转换为百分比 */
+    left: 58.1597vw; /* 835px 转换为百分比 */
+    top: 39vh; /* 351px 转换为百分比 */
+}
+
+.flowers .f5 img {
+    transform: rotateY(180deg);
+}
+
+.flowers .f6 {
+    width: 9.4444vw; /* 136px 转换为百分比 */
+    left: 15.2778vw; /* 220px 转换为百分比 */
+    top: 69.5556vh; /* 626px 转换为百分比 */
+}
+
+.flowers .f7 {
+    width: 6.5972vw; /* 95px 转换为百分比 */
+    left: 50vw; /* 720px 转换为百分比 */
+    top: 66.6667vh; /* 600px 转换为百分比 */
+}
+
+.flowers .f9 {
+    width: 7.0833vw; /* 102px 转换为百分比 */
+    left: 66.3889vw; /* 956px 转换为百分比 */
+    top: 79.3333vh; /* 714px 转换为百分比 */
+    height: 150px;
+}
+
+.flowers .f8 {
+    width: 7.4306vw; /* 107px 转换为百分比 */
+    left: 79.1667vw; /* 1134px 转换为百分比 */
+    top: 58.8889vh; /* 530px 转换为百分比 */
+}
+
+.flowers .f9 img {
+    transform: rotate(27deg);
+}
+.f9 a,
+.f4 a,
+.f8 a{
+    padding-top: 20px;
+}
+
+.f4 img,
+.f8 img {
+    transform: rotate(-27deg);
+}
+
+.flowers .f5 img {
+    transform: rotateY(180deg);
+}
+
+.flowers a {
+    display: none;
+}
+
+.flowers div:hover a {
+    display: block;
+}
